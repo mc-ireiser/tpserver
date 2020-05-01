@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "babel-node src/server.js",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/core": "latest",
@@ -26,11 +28,13 @@
     "redux-socket.io": "latest",
     "socket.io": "latest",
     "socket.io-client": "latest",
-    "tplink-lightbulb": "latest"
+    "tplink-lightbulb": "latest",
+    "snyk": "^1.316.1"
   },
   "babel": {
     "presets": [
       "@babel/preset-env"
     ]
-  }
+  },
+  "snyk": true
 }
