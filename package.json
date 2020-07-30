@@ -11,7 +11,7 @@
     "@babel/node": "latest",
     "@babel/preset-env": "latest",
     "node-sass": "latest",
-    "parcel": "latest",
+    "parcel": "1.12.4",
     "bootstrap": "latest",
     "express": "latest",
     "parcel-bundler": "latest",
