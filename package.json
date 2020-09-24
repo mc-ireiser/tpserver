@@ -20,7 +20,7 @@
     "react-dom": "latest",
     "react-layout-components": "latest",
     "react-redux": "latest",
-    "react-router-dom": "latest",
+    "react-router-dom": "5.0.1",
     "reactstrap": "latest",
     "redux": "latest",
     "redux-socket.io": "latest",
