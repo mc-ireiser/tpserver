@@ -24,7 +24,7 @@
     "reactstrap": "latest",
     "redux": "latest",
     "redux-socket.io": "latest",
-    "socket.io": "latest",
+    "socket.io": "2.4.0",
     "socket.io-client": "latest",
     "tplink-lightbulb": "latest"
   },
