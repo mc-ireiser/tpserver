@@ -10,7 +10,7 @@
     "@babel/core": "latest",
     "@babel/node": "latest",
     "@babel/preset-env": "latest",
-    "node-sass": "latest",
+    "node-sass": "6.0.1",
     "parcel": "latest",
     "bootstrap": "latest",
     "express": "latest",
